@@ -100,7 +100,7 @@ body {
   font-size: 12px;
 }
 .main-header .texth {
-  width: 460px;
+  width: 400px;
   height: 300px;
   position: absolute;
   top: 25%;
@@ -126,7 +126,7 @@ body {
   border-bottom: 1px solid #fdb407;
 }
 .main-header .texth > h1 {
-  font-size: 50px;
+  font-size: 45px;
   color: white;
   font-weight: bold;
   line-height: 1;
