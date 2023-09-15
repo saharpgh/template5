@@ -100,11 +100,16 @@ body {
   font-size: 12px;
 }
 .main-header .texth {
-  width: 400px;
+  width: 300px;
   height: 300px;
   position: absolute;
   top: 25%;
   left: 11%;
+}
+@media (min-width: 768px) {
+  .main-header .texth {
+    width: 400px;
+  }
 }
 .main-header .texth > div:nth-of-type(1) {
   display: flex;
@@ -126,13 +131,18 @@ body {
   border-bottom: 1px solid #fdb407;
 }
 .main-header .texth > h1 {
-  font-size: 45px;
+  font-size: 40px;
   color: white;
   font-weight: bold;
   line-height: 1;
 }
 .main-header .texth > h1 > span {
   color: #fdb407;
+}
+@media (min-width: 768px) {
+  .main-header .texth > h1 {
+    font-size: 45px;
+  }
 }
 .main-header .texth > a {
   position: relative;
